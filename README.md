@@ -1,10 +1,10 @@
-# ETS2DynamicHeadMovement 1.0
+# ETS2DynamicHeadMovement
 > *Dynamic In-Cabin Camera Movement for Euro Truck Simulator 2*
 
 ---
 
 ## Overview
-Built using the logic from **ETS2HeadTracker 2.0**, **ETS2DynamicHeadMovement 1.0** was developed as an alternative to ETS2HeadTracker. It was created specifically to users who want dynamic, realistic head movement without operating external tracking hardware or software, as well as iOS users unable to run the Android client for **ETS2HeadTracker**. 
+Built using the logic from **ETS2HeadTracker 2.0**, **ETS2DynamicHeadMovement** was developed as an alternative to **ETS2HeadTracker**. It was created specifically to users who want dynamic, realistic head movement without operating external tracking hardware or software, as well as iOS users unable to run the Android client for **ETS2HeadTracker**. 
 
 This mod ran directly into the game's native Telemetry SDK to extract camera movement data and apply realistic head-motion simulation.
 
@@ -30,7 +30,7 @@ This mod ran directly into the game's native Telemetry SDK to extract camera mov
 
 ## Installation
 1. Place `ETS2DynamicHeadMovement.dll` into the `plugins` folder inside your ETS2 game installation directory (`bin/win_x64/plugins`).
-2. Launch ETS2 and load into your profile.
+2. Launch ETS2 and enable head tracking.
 3. **IMPORTANT:** In game options, **DO NOT ENABLE** *Steering Camera Rotation* and *Blinker Camera Rotation* (disable them to prevent input conflicts).
 4. Interior head movement will be overridden by the mod's algorithmic logic.
 
