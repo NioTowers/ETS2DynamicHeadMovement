@@ -4,7 +4,7 @@
 ---
 
 ## Overview
-Built using the logic from **ETS2HeadTracker 2.0**, **ETS2DynamicHeadMovement** was developed as an alternative to **ETS2HeadTracker**. It was created specifically to users who want dynamic, realistic head movement without operating external tracking hardware or software, as well as iOS users unable to run the Android client for **ETS2HeadTracker**. 
+Built using the logic from [ETS2HeadTracker 2.0](https://github.com/pebbian/ETS2HeadTracker-2.0), **ETS2DynamicHeadMovement** was developed as an alternative to [ETS2HeadTracker](https://github.com/pebbian/ETS2HeadTracker-1.0). It was created specifically to users who want dynamic, realistic head movement without operating external tracking hardware or software, as well as iOS users unable to run the Android client for [ETS2HeadTracker 2.0](https://github.com/pebbian/ETS2HeadTracker-2.0). 
 
 This mod ran directly into the game's native Telemetry SDK to extract camera movement data and apply realistic head-motion simulation.
 
