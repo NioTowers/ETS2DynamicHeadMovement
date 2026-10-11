@@ -37,7 +37,7 @@ This mod ran directly into the game's native Telemetry SDK to extract camera mov
 ---
 
 ## Requirements
-* Requires **OpenTrack** installed on the user PC.
+* Requires [OpenTrack](https://github.com/opentrack/opentrack) installed on the user PC.
 * Navigate to OpenTrack **Output** settings:
   * Select **facetrack 2.0 Enhanced** as the Output.
   * Set the dropdown mode next to Output settings to **Both**.
