@@ -43,3 +43,5 @@ This mod ran directly into the game's native Telemetry SDK to extract camera mov
   * Set the dropdown mode next to Output settings to **Both**.
  
 Watch the review and leave a suggestion here: https://www.youtube.com/watch?v=aASSKkr_wAI&t=3s
+
+Enjoying the project? You can support me here: https://ko-fi.com/pebbian. Thanks for having my back!
