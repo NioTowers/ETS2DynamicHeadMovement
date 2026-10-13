@@ -18,16 +18,6 @@ This plugin ran directly into the game's native Telemetry SDK to extract camera 
 
 ---
 
-## Variant Comparison (Version 1.1 and below)
-
-| Feature | `ETS2DynamicHeadMovement` | `ETS2DynamicHeadMovement [LESS MOVEMENT]` | `ETS2DynamicHeadMovement [LESS MOVEMENT WIDE]` | `ETS2DynamicHeadMovement [MINIMAL MOVEMENT]` |
-| :--- | :---: | :---: | :---: | :---: |
-| **Random Movements (glancing on mirorrs and looking at instrument cluster)** | Enabled | Disabled | Disabled | Disabled |
-| **Blinker-Activated Mirror Glance** | Enabled | Enabled | Enabled | Disabled |
-| **Blinker-Activated Mirror Glance Scale (`mirror_scale`)** | 1.0 (Full) | 0.3 (Subtle) | 1.0 (Full) | - |
-
-## **DETAILS ABOUT VERSION 2.0 ARE ON IT'S RELEASE PAGE**
-
 ## Installation
 1. Place `ETS2DynamicHeadMovement.dll` into the `plugins` folder inside your ETS2 game installation directory (`bin/win_x64/plugins`).
 2. Edit controls.sii inside your ETS2 profile folder (located in Documents) and change constant c_ht_roll 0.000000 to constant c_ht_roll 1.000000.
