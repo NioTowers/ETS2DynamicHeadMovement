@@ -30,10 +30,11 @@ This plugin ran directly into the game's native Telemetry SDK to extract camera 
 
 ## Installation
 1. Place `ETS2DynamicHeadMovement.dll` into the `plugins` folder inside your ETS2 game installation directory (`bin/win_x64/plugins`).
-2. Launch ETS2 and enable head tracking.
-3. **IMPORTANT:** In game options, **DO NOT ENABLE** *Steering Camera Rotation* and *Blinker Camera Rotation* (disable them to prevent input conflicts).
-4. Interior head movement will be overridden by the plugin's logic.
-5. Open the ui by pressing **Insert**.
+2. Edit controls.sii inside your ETS2 profile folder (located in Documents) and change constant c_ht_roll 0.000000 to constant c_ht_roll 1.000000.
+3. Launch ETS2 and enable head tracking.
+4. **IMPORTANT:** In game options, **DO NOT ENABLE** *Steering Camera Rotation* and *Blinker Camera Rotation* (disable them to prevent input conflicts).
+5. Interior head movement will be overridden by the plugin's logic.
+6. Open the ui by pressing **Insert**.
 
 ---
 
