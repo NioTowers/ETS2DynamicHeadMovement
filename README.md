@@ -6,7 +6,7 @@
 ## Overview
 Built using the logic from [ETS2HeadTracker 2.0](https://github.com/pebbian/ETS2HeadTracker-2.0), **ETS2DynamicHeadMovement** was developed as an alternative to [ETS2HeadTracker](https://github.com/pebbian/ETS2HeadTracker-1.0). It was created specifically to users who want dynamic, realistic head movement without operating external tracking hardware or software, as well as iOS users unable to run the Android client for [ETS2HeadTracker 2.0](https://github.com/pebbian/ETS2HeadTracker-2.0). 
 
-This mod ran directly into the game's native Telemetry SDK to extract camera movement data and apply realistic head-motion simulation.
+This plugin ran directly into the game's native Telemetry SDK to extract camera movement data and apply realistic head-motion simulation.
 
 ---
 
@@ -18,7 +18,7 @@ This mod ran directly into the game's native Telemetry SDK to extract camera mov
 
 ---
 
-### Variant Comparison
+## Variant Comparison (Version 1.1 and below)
 
 | Feature | `ETS2DynamicHeadMovement` | `ETS2DynamicHeadMovement [LESS MOVEMENT]` | `ETS2DynamicHeadMovement [LESS MOVEMENT WIDE]` | `ETS2DynamicHeadMovement [MINIMAL MOVEMENT]` |
 | :--- | :---: | :---: | :---: | :---: |
@@ -26,13 +26,14 @@ This mod ran directly into the game's native Telemetry SDK to extract camera mov
 | **Blinker-Activated Mirror Glance** | Enabled | Enabled | Enabled | Disabled |
 | **Blinker-Activated Mirror Glance Scale (`mirror_scale`)** | 1.0 (Full) | 0.3 (Subtle) | 1.0 (Full) | - |
 
----
+## **DETAILS ABOUT VERSION 2.0 ARE ON IT'S RELEASE PAGE**
 
 ## Installation
 1. Place `ETS2DynamicHeadMovement.dll` into the `plugins` folder inside your ETS2 game installation directory (`bin/win_x64/plugins`).
 2. Launch ETS2 and enable head tracking.
 3. **IMPORTANT:** In game options, **DO NOT ENABLE** *Steering Camera Rotation* and *Blinker Camera Rotation* (disable them to prevent input conflicts).
-4. Interior head movement will be overridden by the mod's algorithmic logic.
+4. Interior head movement will be overridden by the plugin's logic.
+5. Open the ui by pressing **Insert**.
 
 ---
 
