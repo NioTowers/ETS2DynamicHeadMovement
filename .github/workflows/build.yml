@@ -1,0 +1,24 @@
+name: Build Plugin
+on: [push, workflow_dispatch]
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install MinGW
+        uses: egor-tisin/setup-mingw@v2
+        with:
+          platform: x64
+      - name: Download SCS SDK
+        run: |
+          mkdir SDK
+          curl -L -o SDK/scssdk.zip https://github.com
+          tar -xf SDK/scssdk.zip -C SDK --strip-components=1
+      - name: Compile DLL
+        run: |
+          g++ -std=c++17 -O2 -shared -static -s -I SDK/include -I source source/plugin.cpp -o source/ETS2DynamicHeadMovement.dll -lwinmm
+      - name: Upload Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: ETS2DynamicHeadMovement-DLL
+          path: source/ETS2DynamicHeadMovement.dll
